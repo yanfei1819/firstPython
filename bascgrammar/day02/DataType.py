@@ -45,3 +45,5 @@ dicts = {'name': "石焰飞", 3: 5}
 print(dicts['name'])
 print(dicts.keys())
 print(dicts.values())
+
+# 浮点数：一般采用科学计数法技术，小数点可以浮动，故名
