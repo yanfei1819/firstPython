@@ -1,3 +1,7 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+
+
 age = "20"
 
 # 字符串装int
