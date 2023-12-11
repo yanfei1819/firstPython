@@ -1,3 +1,6 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+
 print("this", "is ", "shiyanfei")
 
 # 转义字符的使用

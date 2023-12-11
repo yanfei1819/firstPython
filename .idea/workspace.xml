@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4508b05b-03bb-4a6a-9355-a59b2c944d89" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4508b05b-03bb-4a6a-9355-a59b2c944d89" name="Default" comment="字符集">
+      <change afterPath="$PROJECT_DIR$/bascgrammar/clazz/Hello.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bascgrammar/clazz/Hello2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bascgrammar/clazz/Json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bascgrammar/clazz/Password.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bascgrammar/clazz/Student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bascgrammar/clazz/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bascgrammar/clazz/json.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bascgrammar/clazz/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/date/Date.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/date/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bascgrammar/day02/DataType.py" beforeDir="false" afterPath="$PROJECT_DIR$/bascgrammar/day02/DataType.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bascgrammar/day02/MoreString.py" beforeDir="false" afterPath="$PROJECT_DIR$/bascgrammar/day02/MoreString.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +211,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.printTest">
+  <component name="RunManager" selected="Python.Date">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -636,20 +647,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="DataTrans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="bascgrammar" />
+    <configuration name="Date" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="firstPyhton" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/day02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/date" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/day02/DataTrans.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/date/Date.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -658,7 +669,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DataTransMethod" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="bascgrammar" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -666,12 +677,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/day03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/clazz" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/day03/DataTransMethod.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/clazz/Hello.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -680,7 +691,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MoreString" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Hello2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="bascgrammar" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -688,12 +699,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/day02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/clazz" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/day02/MoreString.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/clazz/Hello2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bascgrammar" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/clazz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/clazz/Json.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -724,28 +757,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="booleanDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="bascgrammar" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/day03" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/day03/booleanDemo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="firstPyhton" type="PythonConfigurationType" factoryName="Python" singleton="true">
       <module name="firstPyhton" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -768,7 +779,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="printTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="request" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="bascgrammar" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -776,12 +787,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/day01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/clazz" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/day01/printTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/clazz/request.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -838,19 +849,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.firstPyhton" />
-      <item itemvalue="Python.DataTrans" />
-      <item itemvalue="Python.printTest" />
-      <item itemvalue="Python.booleanDemo" />
-      <item itemvalue="Python.MoreString" />
-      <item itemvalue="Python.DataTransMethod" />
+      <item itemvalue="Python.Date" />
+      <item itemvalue="Python.Hello" />
+      <item itemvalue="Python.Hello2" />
+      <item itemvalue="Python.Json" />
+      <item itemvalue="Python.request" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.printTest" />
-        <item itemvalue="Python.DataTransMethod" />
-        <item itemvalue="Python.booleanDemo" />
-        <item itemvalue="Python.MoreString" />
-        <item itemvalue="Python.DataTrans" />
+        <item itemvalue="Python.Date" />
+        <item itemvalue="Python.Hello" />
+        <item itemvalue="Python.Hello2" />
+        <item itemvalue="Python.Json" />
+        <item itemvalue="Python.request" />
       </list>
     </recent_temporary>
   </component>
@@ -886,7 +897,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521685073056</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="字符集">
+      <created>1702028995098</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702028995098</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -948,7 +966,8 @@
     <MESSAGE value="测试提交" />
     <MESSAGE value="注释的形式" />
     <MESSAGE value="Python的基础数据类型" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python的基础数据类型" />
+    <MESSAGE value="字符集" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符集" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

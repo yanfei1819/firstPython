@@ -1,3 +1,6 @@
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+
 counter = 100
 miles = 1000.02
 name = "shiyanfei"
