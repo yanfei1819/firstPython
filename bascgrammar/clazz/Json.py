@@ -17,5 +17,5 @@ if __name__ == '__main__':
             data[value] = info
             value += 1
     file_obj.close()
-    file = open('json.json', 'w')
-    json.dump(data, file, ensure_ascii=False)
+    s = open('json.json', 'w')
+    json.dump(data, s, ensure_ascii=False)
