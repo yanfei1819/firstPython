@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4508b05b-03bb-4a6a-9355-a59b2c944d89" name="Default" comment="python 基础练习">
-      <change afterPath="$PROJECT_DIR$/bascgrammar/db/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bascgrammar/db/mysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bascgrammar/dict/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bascgrammar/dict/dictInit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bascgrammar/game/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bascgrammar/game/case.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bascgrammar/game/ifAndelse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bascgrammar/game/list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bascgrammar/game/loop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bascgrammar/class/Student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bascgrammar/class/User.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bascgrammar/class/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bascgrammar/set/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bascgrammar/set/set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bascgrammar/tuple/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bascgrammar/tuple/tuple.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bascgrammar/clazz/Json.py" beforeDir="false" afterPath="$PROJECT_DIR$/bascgrammar/clazz/Json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstPyhton.iml" beforeDir="false" afterPath="$PROJECT_DIR$/firstPyhton.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bascgrammar/dict/dictInit.py" beforeDir="false" afterPath="$PROJECT_DIR$/bascgrammar/dict/dictInit.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +209,12 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.dictInit">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\workplace-private\firstPython.git\bascgrammar\tuple" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Student">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -648,28 +650,6 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="Date" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="firstPyhton" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/date" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/date/Date.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="bascgrammar" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -684,6 +664,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/clazz/Json.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Student" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bascgrammar" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/class" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/class/Student.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="User" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bascgrammar" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/class" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/class/User.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -714,28 +738,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dictInit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="bascgrammar" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/dict" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/dict/dictInit.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="firstPyhton" type="PythonConfigurationType" factoryName="Python" singleton="true">
       <module name="firstPyhton" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -758,7 +760,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="set" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="bascgrammar" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -766,12 +768,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/set" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/game/list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/set/set.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -780,7 +782,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="loop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tuple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="bascgrammar" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -788,12 +790,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/tuple" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/game/loop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/tuple/tuple.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -850,19 +852,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.firstPyhton" />
-      <item itemvalue="Python.Date" />
       <item itemvalue="Python.Json" />
-      <item itemvalue="Python.dictInit" />
-      <item itemvalue="Python.list" />
-      <item itemvalue="Python.loop" />
+      <item itemvalue="Python.Student" />
+      <item itemvalue="Python.User" />
+      <item itemvalue="Python.set" />
+      <item itemvalue="Python.tuple" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dictInit" />
-        <item itemvalue="Python.loop" />
-        <item itemvalue="Python.list" />
+        <item itemvalue="Python.Student" />
+        <item itemvalue="Python.User" />
         <item itemvalue="Python.Json" />
-        <item itemvalue="Python.Date" />
+        <item itemvalue="Python.tuple" />
+        <item itemvalue="Python.set" />
       </list>
     </recent_temporary>
   </component>
@@ -912,7 +914,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702276603110</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="python 基础练习">
+      <created>1702350592188</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702350592188</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">

@@ -6,7 +6,7 @@ import json
 
 if __name__ == '__main__':
     file_pth = 'json.txt'
-    file_obj = open(file_pth, 'r', 3)
+    file_obj = open(file_pth, 'r', )
     lines = file_obj.readline
     data = {}
     value = 0
