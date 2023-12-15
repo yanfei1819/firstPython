@@ -8,3 +8,6 @@ def test():
         return ''
     finally:
         return ''
+
+
+assert False,'www'

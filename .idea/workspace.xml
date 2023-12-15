@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4508b05b-03bb-4a6a-9355-a59b2c944d89" name="Default" comment="db操作">
-      <change afterPath="$PROJECT_DIR$/bascgrammar/error/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bascgrammar/error/error.py" afterDir="false" />
+    <list default="true" id="4508b05b-03bb-4a6a-9355-a59b2c944d89" name="Default" comment="异常处理">
+      <change afterPath="$PROJECT_DIR$/bascgrammar/json/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bascgrammar/json/json_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bascgrammar/sort/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bascgrammar/sort/sort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bascgrammar/error/error.py" beforeDir="false" afterPath="$PROJECT_DIR$/bascgrammar/error/error.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +211,7 @@
       <recent name="F:\workplace-private\firstPython.git\bascgrammar\tuple" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.error">
+  <component name="RunManager" selected="Python.json_util">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -644,28 +647,6 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="Json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="bascgrammar" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/clazz" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/clazz/Json.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Student" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="bascgrammar" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -776,20 +757,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tuple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="bascgrammar" />
+    <configuration name="json_util" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="firstPyhton" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/tuple" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/json" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/tuple/tuple.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/json/json_util.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="firstPyhton" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/sort" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/sort/sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -847,18 +850,18 @@
     <list>
       <item itemvalue="Python.firstPyhton" />
       <item itemvalue="Python.error" />
-      <item itemvalue="Python.Json" />
+      <item itemvalue="Python.json_util" />
+      <item itemvalue="Python.sort" />
       <item itemvalue="Python.Student" />
       <item itemvalue="Python.User" />
-      <item itemvalue="Python.tuple" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.json_util" />
+        <item itemvalue="Python.sort" />
         <item itemvalue="Python.error" />
         <item itemvalue="Python.Student" />
         <item itemvalue="Python.User" />
-        <item itemvalue="Python.Json" />
-        <item itemvalue="Python.tuple" />
       </list>
     </recent_temporary>
   </component>
@@ -936,7 +939,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702612022938</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="异常处理">
+      <created>1702619804342</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702619804342</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1003,7 +1013,8 @@
     <MESSAGE value="python 基础练习——类的创建" />
     <MESSAGE value="项目的改造" />
     <MESSAGE value="db操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="db操作" />
+    <MESSAGE value="异常处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="异常处理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
