@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4508b05b-03bb-4a6a-9355-a59b2c944d89" name="Default" comment="项目的改造">
-      <change afterPath="$PROJECT_DIR$/bascgrammar/dao/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bascgrammar/dao/connector.py" afterDir="false" />
+    <list default="true" id="4508b05b-03bb-4a6a-9355-a59b2c944d89" name="Default" comment="db操作">
+      <change afterPath="$PROJECT_DIR$/bascgrammar/error/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bascgrammar/error/error.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -208,7 +208,7 @@
       <recent name="F:\workplace-private\firstPython.git\bascgrammar\tuple" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Student">
+  <component name="RunManager" selected="Python.error">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -732,6 +732,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="error" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="firstPyhton" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/error" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/error/error.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="firstPyhton" type="PythonConfigurationType" factoryName="Python" singleton="true">
       <module name="firstPyhton" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -746,28 +768,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/firstPyhton.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="set" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="bascgrammar" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bascgrammar/set" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bascgrammar/set/set.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -846,19 +846,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.firstPyhton" />
+      <item itemvalue="Python.error" />
       <item itemvalue="Python.Json" />
       <item itemvalue="Python.Student" />
       <item itemvalue="Python.User" />
-      <item itemvalue="Python.set" />
       <item itemvalue="Python.tuple" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.error" />
         <item itemvalue="Python.Student" />
         <item itemvalue="Python.User" />
         <item itemvalue="Python.Json" />
         <item itemvalue="Python.tuple" />
-        <item itemvalue="Python.set" />
       </list>
     </recent_temporary>
   </component>
@@ -929,7 +929,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702436405755</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="db操作">
+      <created>1702612022938</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702612022938</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -995,7 +1002,8 @@
     <MESSAGE value="python 基础练习" />
     <MESSAGE value="python 基础练习——类的创建" />
     <MESSAGE value="项目的改造" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目的改造" />
+    <MESSAGE value="db操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="db操作" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
