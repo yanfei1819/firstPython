@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4508b05b-03bb-4a6a-9355-a59b2c944d89" name="Default" comment="python 基础练习——类的创建">
-      <change afterPath="$PROJECT_DIR$/bascgrammar/date/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="4508b05b-03bb-4a6a-9355-a59b2c944d89" name="Default" comment="项目的改造">
+      <change afterPath="$PROJECT_DIR$/bascgrammar/dao/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bascgrammar/dao/connector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bascgrammar/bascgrammar.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/date/Date.py" beforeDir="false" afterPath="$PROJECT_DIR$/bascgrammar/date/Date.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/date/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bascgrammar/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moduleA/data/FirstDate.py" beforeDir="false" afterPath="$PROJECT_DIR$/bascgrammar/data/FirstDate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moduleA/data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bascgrammar/data/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moduleA/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/bascgrammar/hello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moduleA/moduleA.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,12 +196,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "F:/workplace-private/Python-100-Days-master/Python-100-Days-master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;F:/workplace-private/Python-100-Days-master/Python-100-Days-master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\workplace-private\firstPython.git\bascgrammar" />
@@ -929,7 +922,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702361832625</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="项目的改造">
+      <created>1702436405755</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702436405755</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -994,7 +994,8 @@
     <MESSAGE value="字符集" />
     <MESSAGE value="python 基础练习" />
     <MESSAGE value="python 基础练习——类的创建" />
-    <option name="LAST_COMMIT_MESSAGE" value="python 基础练习——类的创建" />
+    <MESSAGE value="项目的改造" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目的改造" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
